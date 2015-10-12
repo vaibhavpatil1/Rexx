@@ -1,2 +1,10 @@
 /* REXX */
 
+Call 1000_Initialize 
+Call 2000_Process
+Call Exit_Rexx 
+
+1000_Initialize: 
+  G. = ""
+  G.REXX.SYSSUB.TKS = 0 
+  
